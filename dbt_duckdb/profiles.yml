@@ -1,0 +1,7 @@
+dbt_duckdb:
+  outputs:
+    dev:
+      type: duckdb
+      path: 'database/dbt_kimball.duckdb'
+      threads: 4
+  target: dev

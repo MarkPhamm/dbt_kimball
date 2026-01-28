@@ -1,0 +1,19 @@
+snapshots:
+  - name: dim_product_snapshot
+    relation: source('tmp_dim_product_snapshot', 'tmp_dim_product_snapshot')
+    config:
+      schema: curated
+      strategy: check
+      unique_key: product_key
+      updated_at: snapshot_date
+      check_cols:
+        - product_key
+        - product_sku
+        - product_name
+        - product_description
+        - product_price
+        - product_cost
+        - product_color
+        - product_size
+        - subcategory_name
+        - category_name

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+
+  - name: tmp_dim_product_snapshot
+    schema: curated
+    tables:
+      - name: tmp_dim_product_snapshot
+        identifier: tmp_dim_product_snapshot

@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+
+  - name: landing
+    schema: landing
+    tables:
+      - name: products_20250801
+      - name: products_20250802
+      - name: products_20250803
+      - name: product_categories_20250801
+      - name: product_categories_20250802
+      - name: product_categories_20250803
+      - name: product_subcategories_20250801
+      - name: product_subcategories_20250802
+      - name: product_subcategories_20250803
+      - name: sales_20250801
+      - name: sales_20250802
+      - name: sales_20250803
+      - name: territories_20250801
+      - name: territories_20250802
+      - name: territories_20250803
